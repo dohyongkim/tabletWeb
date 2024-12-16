@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Bluetooth</title>
+</head>
+<body>
+  <h1>Bluetooth 잠금 장치 PIN번호 입력</h1>
+  <label for="passwordInput">PIN번호: </label>
+  <input type="text" id="passwordInput" maxlength="4" placeholder="4자리 숫자" required>
+  <button id="connect-button">비밀번호 전송</button>
+  <p>
+  <button id="service-button">service check to Bluetooth Device</button>
+</p>
+  <p id="battery-level">
+    <button id="random-code-button">랜덤코드</button>
+    
+  </p>
+
+  <script src="app.js"></script>
+</body>
+</html>
